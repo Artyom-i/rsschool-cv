@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Web Developer CV</title>
+</head>
+<body>
+<div class="container">
+
+  <header class="page-header">
+    <section class="intro">
+      <h1>Artyom Kuzmenko<br><span class="profession">Web Developer</span></h1>
+      <div class="container-profile">
+      </div>
+    </section>
+  </header>
+
+  <main class="main-info">
+
+    <h2>About me</h2>
+    <p class="pb-20">
+      I want to evolve as a Frontend Web Developer. My strengths include the ability to learn quickly, punctuality.
+      I plan tasks in advance, and I'm not afraid to try something new. Besides web development, I am fond of
+      writing electronic music and playing on a DJ controller
+    </p>
+
+    <h2>Experience</h2>
+    <p class="pb-20">
+      Regula Ltd., Injection Mold Designer (3D design of molds, creation of drawings, work with PDM and PLM systems),
+      2019 -
+      present
+    </p>
+
+    <h2>Education</h2>
+    <ul class="my-education pb-20">
+      <li>HTML Academy interactive courses</li>
+      <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+      <li>Belarusian National Technical University, Faculty of Information Technology and Robotics, Industrial robots
+        and robotic systems, 2014 - 2019
+      </li>
+    </ul>
+
+    <h2>Code example</h2>
+    <div class="pb-20">
+          <pre class="highlighting">
+          <code>
+
+            // return masked string
+            function maskify(cardNumber) {
+                if (cardNumber.length &lt= 4) {
+                  return cardNumber;
+                } else {
+                const visibleDigits = cardNumber.slice(-4);
+                return visibleDigits.padStart(cardNumber.length, '#');
+                }
+            }
+          </code>
+          </pre>
+    </div>
+
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <dl class="skills-list pb-20">
+        <dt class="skill-html">HTML</dt>
+        <dd class="level">
+          <div style="width: 85%">85%</div>
+        </dd>
+        <dt class="skill-css">CSS</dt>
+        <dd class="level">
+          <div style="width: 70%">70%</div>
+        </dd>
+        <dt class="skill-git">Git</dt>
+        <dd class="level">
+          <div style="width: 60%">60%</div>
+        </dd>
+        <dt class="skill-github">GitHub</dt>
+        <dd class="level">
+          <div style="width: 70%">700%</div>
+        </dd>
+      </dl>
+    </div>
+
+    <h2>English</h2>
+    <p class="pb-20">Intermediate and still studying at Skyeng</p>
+  </main>
+
+
+</div>
+</body>
+</html>
