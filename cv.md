@@ -10,3 +10,23 @@ I want to evolve as a Frontend Web Developer. My strengths include the ability t
 * JavaScript Basics
 * Git, GitHub
 * WebStorm
+## Code example
+```
+// return masked string
+function maskify(cardNumber) {
+    if (cardNumber.length <= 4) {
+      return cardNumber;
+    } else {
+    const visibleDigits = cardNumber.slice(-4);
+    return visibleDigits.padStart(cardNumber.length, '#');
+    }
+} 
+```
+## Experience
+Regula Ltd., Injection Mold Designer (3D design of molds, creation of drawings, work with PDM and PLM systems), 2019 - present
+## Education
+* HTML Academy interactive courses
+* JavaScript Manual on learnjavascript.ru (in progress)
+* Belarusian National Technical University, Faculty of Information Technology and Robotics, Industrial robots and robotic systems, 2014 - 2019
+## English
+Intermediate and still studying at Skyeng
