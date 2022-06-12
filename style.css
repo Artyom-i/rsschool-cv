@@ -48,6 +48,14 @@ p {
   font-weight: 300;
 }
 
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .my-education {
   font-weight: 300;
 }
