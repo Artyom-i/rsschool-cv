@@ -1,0 +1,94 @@
+
+.container {
+  margin: 0 auto;
+  min-width: 800px;
+  max-width: 940px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  box-shadow: 0 7px 3px -7px rgba(0,0,0,0.74);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.profession {
+  font-weight: 500;
+  font-size: 20px;
+}
+figure {
+  margin: 0;
+}
+.contacts {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.my-education {
+  font-weight: 300;
+}
+
+.highlighting {
+  background-color: #ececec;
+  border-radius: 5px;
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #cbcbcb;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 6px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  box-shadow: 0 -7px 3px -7px rgba(0,0,0,0.74);
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
